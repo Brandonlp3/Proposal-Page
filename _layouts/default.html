@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      nav {
+        border-bottom: 1px solid #8883;
+        padding: 12px 24px;
+      }
+      nav a {
+        margin-right: 12px;
+        text-decoration: none;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid #8885;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    {% include nav.html %}
+    <main class="container">
+      {{ content }}
+    </main>
+  </body>
+</html>
