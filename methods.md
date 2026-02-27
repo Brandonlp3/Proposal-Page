@@ -29,20 +29,6 @@ sensitive models.
 - Supervised methods: Random Forest, Logistic Regression baseline
 - Unsupervised methods: K-Means, Gaussian Mixture Models
 
-## Method Overview
-We employ two complementary approaches to study rapid
-intensification (RI) in Atlantic hurricanes. The unsuper-
-vised component clusters storm observations by their atmo-
-spheric/environmental conditions to identify recurring regimes
-and relate them to RI behavior. The supervised component
-trains a predictive model to forecast whether RI will occur
-over a specified future horizon. We will tune clustering and
-classifier hyperparameters on validation data (silhouette/BIC
-for clustering; trees/depth/class weights for random forest)
-and evaluate with PR-AUC and F1/recall to handle class
-imbalance [7]. Details of each approach, including model
-choices, hyperparameter selection, and evaluation under class
-imbalance, are provided in the sections below.
 
 ## Supervised
 The supervised learning portion of this project will involve
@@ -81,30 +67,14 @@ will account for the uneven amount of labeled data for RI
 storms vs No-RI storms [7].
 
 ## Unsupervised
-The unsupervised learning portion of this project will in-
-volve clustering hurricanes by leveraging observations on their
-atmospheric conditions to classify their progression. Further,
-whether differing magnitudes of RI is represented within
-specific atmospheric conditions.
-
-The first candidate learning method is K-Means clustering,
-which will partition storm observations into k clusters by
-iteratively assigning each observation to the nearest centroid.
-A limitation is that K-Means produces hard assignments
-and assumes equal-sized clusters, raising concerns since the
-smaller population of RI prone storm environments may be
-absorbed into the conditions associated with that of a larger
-neighboring cluster.
-
-To address this, the second candidate learning method
-is Gaussian Mixture Models (GMM), which assigns each
-datapoint a probability of belonging to each cluster and, most
-importantly, allows clusters to vary in size and density, making
-it better suited to present differing scales of small distinct RI
-prone storms. This soft assignment works to reduce the chance
-of cluster absorption. For both methods, the hyperparameter
-will be determined empirically using the elbow method and
-silhouette scoring for K-Means, and BIC for GMM.
+- **Goal:** cluster storm observations by atmospheric conditions to identify clusters associated with RI behavior and intensity progression.
+- **Model 1: K-Means**
+	- Fast, interpretable baseline partitioning by nearest centroid.
+	- Limitation: hard assignments and tendency toward similarly sized clusters, potentially preventing RI clusters.
+- **Model 2: Gaussian Mixture Model (GMM)**
+	- Soft probabilistic assignment per observation.
+	- Supports varying cluster size/shape, helping preserve smaller RI-prone regimes.
+- **Model selection:** choose hyperparameters via elbow + silhouette (K-Means) and BIC (GMM).
 
 
 ---
