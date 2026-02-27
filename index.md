@@ -6,12 +6,13 @@ title: Home
 # Proposal (5%)
 
 ## Project Title
-[Insert finalized project title]
+Hurricane Rapid Intensification Forecasting and Historical Trends
 
 ## Team Information
-- Course: [CS 4641 / CS 7641]
-- Semester: [Insert term]
-- Team Name: [Insert team name]
+- Course: CS 7641
+- Semester: Spring 2026
+- Team Name: Group 1
+- Team Members: Rick H Nguyen, Austin O'Connell, Inhyeong Park, Brandon Lee Parker, Achintya Raya Polavarapu
 
 ## Quick Navigation
 - [Introduction / Background]({{ '/introduction' | relative_url }})
@@ -23,20 +24,20 @@ title: Home
 - [Contribution Table]({{ '/contribution-table' | relative_url }})
 
 ## Submission Checklist
-- [ ] Literature Review
-- [ ] Dataset Description
-- [ ] Dataset Link (if applicable)
-- [ ] Problem
-- [ ] Motivation
-- [ ] 3+ Data Preprocessing Methods Identified
-- [ ] 3+ ML Algorithms/Models Identified
-- [ ] CS 7641: Unsupervised and Supervised Methods Identified
+- [x] Literature Review
+- [x] Dataset Description
+- [x] Dataset Link (if applicable)
+- [x] Problem
+- [x] Motivation
+- [x] 3+ Data Preprocessing Methods Identified
+- [x] 3+ ML Algorithms/Models Identified
+- [x] CS 7641: Unsupervised and Supervised Methods Identified
 - [ ] CS 4641: Supervised or Unsupervised Methods Identified
-- [ ] 3+ Quantitative Metrics
-- [ ] Project Goals (include sustainability and ethical considerations)
-- [ ] Expected Results
-- [ ] 3+ References (preferably peer reviewed)
-- [ ] 1+ In-Text Citation Per Reference
+- [x] 3+ Quantitative Metrics
+- [x] Project Goals (include sustainability and ethical considerations)
+- [x] Expected Results
+- [x] 3+ References (preferably peer reviewed)
+- [x] 1+ In-Text Citation Per Reference
 - [ ] Gantt Chart with each member's planned responsibilities
 - [ ] Contribution Table with explicit proposal contributions
 
