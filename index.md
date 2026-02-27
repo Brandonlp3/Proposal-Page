@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Proposal (5%)
+# Proposal
 
 ## Project Title
 Hurricane Rapid Intensification Forecasting and Historical Trends
@@ -22,6 +22,7 @@ Hurricane Rapid Intensification Forecasting and Historical Trends
 - [References (IEEE)]({{ '/references' | relative_url }})
 - [Gantt Chart]({{ '/gantt-chart' | relative_url }})
 - [Contribution Table]({{ '/contribution-table' | relative_url }})
+- [Proposal Document (PDF)]({{ '/proposal-doc' | relative_url }})
 
 ## Submission Checklist
 - [x] Literature Review
