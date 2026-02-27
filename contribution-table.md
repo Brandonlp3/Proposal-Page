@@ -7,12 +7,21 @@ title: Contribution Table
 
 | Name | Proposal Contributions |
 |---|---|
-| Rick H Nguyen | Co-authored problem framing and supervised model plan; drafted sections on RI prediction objectives and classifier design. |
-| Austin O'Connell | Co-authored unsupervised learning section; documented K-Means and GMM rationale and model selection criteria. |
-| Inhyeong Park | Contributed dataset and feature planning, including ERA5/HURDAT2 variable selection and preprocessing considerations. |
-| Brandon Lee Parker | Co-authored introduction/background and motivation; integrated proposal structure into the project page format. |
-| Achintya Raya Polavarapu | Contributed metrics/goals discussion, including class-imbalance evaluation metrics and ethics/sustainability framing. |
-
+| Rick H Nguyen |Intro/background/problem definition; GitHub repo;
+M1 design + feature reduction; M2 coding; M3
+design/cleaning. |
+| Austin O'Connell |Supervised learning section; video; M1 design +
+visualization; M2 design + visualization. |
+| Inhyeong Park | Results/discussion; Gantt chart; M1 implementa-
+tion; midterm report; M3 design/feature reduc-
+tion/cleaning; final report. |
+| Brandon Lee Parker |Unsupervised learning section; GitHub page; M1
+design + data cleaning; M2 design + data cleaning;
+M3 implementation. |
+| Achintya Raya Polavarapu | Methods/ML algorithms; contribution
+table; M2 design + feature reduction; M3
+design/visualization/cleaning. |
+All: M1/M2 results evaluation; M3 results evaluation; M1–M3 comparison.
 > Update this table if responsibilities shift during implementation.
 
 ---

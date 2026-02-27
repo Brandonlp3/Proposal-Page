@@ -6,21 +6,40 @@ title: References
 # References (IEEE)
 
 ## Reference List
-[1] Kaplan et al., 2010. (RI definition and threshold source; format to finalize from bibliography file.)
+[1] J. Kaplan, M. DeMaria, and J. A. Knaff, “A revised tropical cyclone rapid
+intensification index for the atlantic and eastern north pacific basins,”
+Weather and Forecasting, 2010.
 
-[2] Wei et al., 2023. (SVM application to tropical cyclone classification; format to finalize from bibliography file.)
+[2] M. Wei, G. Fang, and Y. Ge, “Tropical cyclone genesis prediction based
+on support vector machine considering effects of multiple meteorological
+parameters,” Journal of Wind Engineering and Industrial Aerodynamics,
+2023.
 
-[3] Xu et al., 2021. (MLP/non-linear atmospheric modeling for RI-related analysis; format to finalize from bibliography file.)
+[3] W. Xu, K. Balaguru, A. August, N. Lalo, N. Hodas, M. DeMaria,
+and D. Judi, “Deep learning experiments for tropical cyclone intensity
+forecasts,” Weather and Forecasting, 2021.
 
-[4] Ganesh et al., 2025. (Feature relevance for hurricane intensity prediction; format to finalize from bibliography file.)
+[4] S. S. Ganesh, F. I.-H. Tam, M. S. Gomez, M. McGraw, M. DeMaria,
+K. Musgrave, J. Runge, and T. Beucler, “Multidata causal discovery
+for statistical hurricane intensity forecasting,” 2025. [Online]. Available:
+https://arxiv.org/abs/2510.02050
 
-[5] Judt et al., 2016. (RI timing/magnitude forecasting difficulty; format to finalize from bibliography file.)
+[5] F. Judt and S. Chen, “Predictability and dynamics of tropical cyclone
+rapid intensification deduced from high-resolution stochastic ensembles,”
+2016.
 
-[6] DeMaria et al., 2021. (Limitations of physics-based/numerical models for inner-core storm dynamics; format to finalize from bibliography file.)
+[6] M. DeMaria, J. Franklin, M. Onderlinde, and J. Kaplan, “Operational
+forecasting of tropical cyclone rapid intensification at the national hurri-
+cane center,” Atmosphere, 2021.
 
-[7] `rf1` from proposal bibliography (Random Forest support citation; full IEEE entry pending bibliography export.)
+[7] L. Yi, T. Youmin, T. Ralf, and W. Shuai, “Revisiting the definition of rapid
+intensification of tropical cyclones by clustering the initial intensity and
+inner-core size,” Journal of Geophysical Research: Atmospheres, 2022.
 
-[8] `ri1` from proposal bibliography (RI class imbalance citation; full IEEE entry pending bibliography export.)
+[8] O. NS, J. BC, B. GS, and S. JL, “A comparison of random forest variable
+selection methods for regression modeling of continuous outcomes,”
+Briefings in Bioinformatics, 2025.
+
 
 ## In-Text Citation Mapping
 - [1] cited in: Introduction / Background, Topic Overview

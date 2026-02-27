@@ -6,11 +6,33 @@ title: Introduction / Background
 # Introduction / Background
 
 ## Topic Overview
-Rapid intensification (RI) is a phenomenon in which a tropical system's maximum wind speed increases by at least 30 knots within a 24-hour period, often in environments with low wind shear, higher relative humidity, and higher sea surface temperatures [1].
+RAPID intensification (RI) is a phenomenon in which a
+tropical system’s maximum wind speed increases by at
+least 30 knots within a 24-hour period, often in an environment
+of low wind shear, higher relative humidity, and higher sea
+surface temperatures [1]. Numerous applications of machine
+learning have been used to forecast hurricanes and RI. For
+example, support vector machines (SVMs) have been applied
+to classify tropical cyclone formations, mapping meteoro-
+logical parameters with storm development [2]. Similarly,
+neural networks such as multilayer perceptrons (MLPs) have
+been used to model non-linear relationships between such
+parameters to identify atmospheric thresholds that lead to RI
+in storms [3].
 
-Forecasting RI remains difficult due to non-linear atmospheric interactions and subtle storm dynamics. This project studies historical Atlantic tropical storms and develops machine learning approaches to forecast RI and analyze long-term trends.
+This project involves timeseries data on recorded Atlantic
+tropical storms. The first dataset is HURDAT2 track data con-
+taining 6-hour storm records, including geographic position,
+maximum sustained wind speed, and central pressure. The
+second dataset is ERA5 global reanalysis data since 1940,
+which we will confine to the Atlantic Ocean. The relevant
+features utilized include sea surface temperatures, vertical
+wind shear, mean sea level pressure, and relative mid-level
+humidity, which are features known to contribute to hurricane
+intensity [4].
 
 ## Literature Review
+(WIP AI Generated Below)
 ### Source 1
 - Citation key: [1] Kaplan et al.
 - Summary: Defines and characterizes RI conditions and provides baseline meteorological context.

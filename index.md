@@ -32,7 +32,6 @@ Hurricane Rapid Intensification Forecasting and Historical Trends
 - [x] 3+ Data Preprocessing Methods Identified
 - [x] 3+ ML Algorithms/Models Identified
 - [x] CS 7641: Unsupervised and Supervised Methods Identified
-- [ ] CS 4641: Supervised or Unsupervised Methods Identified
 - [x] 3+ Quantitative Metrics
 - [x] Project Goals (include sustainability and ethical considerations)
 - [x] Expected Results
